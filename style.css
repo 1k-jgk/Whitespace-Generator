@@ -1,0 +1,12 @@
+h1 {
+    color :white;
+    background-color : black;
+}
+
+textarea{
+    width: 1000px;
+    height: 80px;
+    font-size: 20px;
+    resize:none;
+    overflow:hidden;
+}
