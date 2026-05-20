@@ -14,4 +14,6 @@ textarea{
 #output{
 
     white-space: pre-wrap;
+
+    tab-size:4;
 }

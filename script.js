@@ -50,20 +50,7 @@ function convert(){
     let word;
 
     for(word of input.value){
-        if(word === " "){
-            ans1 += "S";
-            ans2 += "SPACE　";
-        }
-        else if(word === "\t"){
-            ans1 += "T";
-            ans2 += "TAB　";
-        }
-        else if(word === "\n"){
-            ans1 += "L";
-            ans2 += "改行　";
-        }
-
-        else if(word === "S" || word === "s"){
+        if(word === "S" || word === "s"){
             ans1 += " ";
             ans2 += "SPACE　";
         }
