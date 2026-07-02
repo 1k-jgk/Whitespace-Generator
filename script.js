@@ -62,10 +62,7 @@ function convert(){
             ans1 += "\n";
             ans2 += "改行　";
         }
-        else{
-        ans1 += word;
-        ans2 += word;
-    }
+        
     }
     output1.value = ans1; 
     output2.value = ans2;
