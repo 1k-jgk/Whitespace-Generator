@@ -62,6 +62,9 @@ function convert(){
             ans1 += "\n";
             ans2 += "改行　";
         }
+        else if(word === " " || word === "\t" || word === "\n"){
+            continue;
+        }
         else{
         ans1 += word;
         ans2 += word;
